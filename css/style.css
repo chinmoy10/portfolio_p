@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav_title {
+    color: #000000;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 18px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+li button {
+    padding: 18px 35px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
