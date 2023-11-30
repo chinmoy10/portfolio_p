@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 18px 35px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -24,12 +38,4 @@ nav ul {
 nav ul li {
     list-style-type: none;
     margin-left: 50px;
-}
-
-li button {
-    padding: 18px 35px;
-}
-
-.text-primary {
-    color: #FD6E0A;
 }
