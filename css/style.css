@@ -20,7 +20,7 @@
     background-color: #FD6E0A;
 }
 
-.btn-contact{
+.btn-contact {
     height: 64px;
     border-radius: 5px;
     font-size: 20px;
@@ -33,7 +33,7 @@
     margin-left: 30px;
 }
 
-.header{
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ nav {
 }
 
 .nav_title {
-    color: #000000;
+    color: #181818;
     font-size: 45px;
     font-weight: bold;
 }
@@ -75,7 +75,7 @@ nav ul li {
 }
 
 .bannner_title {
-    color: #000000;
+    color: #181818;
     font-size: 85px;
     line-height: 90px;
     font-weight: 600;
@@ -90,10 +90,62 @@ nav ul li {
     margin-bottom: 5px;
 }
 
-.bannner_description{
+.bannner_description {
     color: #757575;
     font-size: 18px;
     line-height: 30px;
     font-weight: normal;
     margin-bottom: 30px;
+}
+
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about */
+.about {
+    margin: 130px 0px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section_title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.section_description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.about_info_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_info {}
+
+.info_title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info_description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #181818;
 }
